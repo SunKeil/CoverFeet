@@ -4,8 +4,17 @@
     box-sizing: border-box;
     font-family: 'Anton', sans-serif;
 }
+
 html{
     width: auto;
+}
+.burger{
+    height: 24px;
+    width: 24px;
+}
+.main-img{
+    width: 691px;
+    height: 453.88px;
 }
 .description {
     font-family: 'Lato', sans-serif;
@@ -15,7 +24,7 @@ html{
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     color: #353A3D;
 }
 .headers{
@@ -52,6 +61,7 @@ a{
 .favorites {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 50px;
 }
 nav {
     display: flex;
@@ -64,12 +74,8 @@ ul{
     align-items: center;
     text-decoration: none;
 }
-.coverfeet-img-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
+
 .coverfeet-img-wrapper p{
     font-style: normal;
     font-weight: 600;
@@ -77,47 +83,15 @@ ul{
     text-align: center;
     letter-spacing: -0.05em;
     color: #02986A;
-    width: 533px;
     height: 124px;
 }
 .image-wrapper{
     padding-left: 10px;
 }
 
-.dont-content-wrapper{
-    display: flex;
-    justify-content: space-between;
-}
-.upper-wrappper {
-    text-align: center;
-}
-.upper-wrappper{
-    height: 214px
-}
-.dont-content-wrapper{
-    height: 673px;
-}
-#happyface{
-   padding-top: 200px;
-}
-#reading{
-    padding-bottom: 200px;
- }
-  #happyface{
-    width: auto;
-    float: right;
- }
- #reading{
-    float: left;
-    width: auto;
- }
- .mid-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+
  
-.office, .sponsors , .favorites, .sponsors, .dont-miss-wrapper, .email-us{
+.office, .sponsors , .sponsors, .dont-miss-wrapper, .email-us{
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -206,7 +180,6 @@ ul{
     letter-spacing: -0.05em;
     color: #353A3D;
     text-align: center;
-    width: 420px;
 }
 .dimg{
     width: 489px;
@@ -238,56 +211,37 @@ ul{
     width: 360px;
     margin-bottom: 30px;
 }
-.email-us {
-    display: flex;
-    justify-content: space-between;
-}
-.email-input img{
-    width: 617px;
-    height: 405px;
-}
-.email-input h2{
+
+.email-form h3{
+    letter-spacing: -5px;
+    font-style: normal;
     font-weight: bolder;
     font-size: 70px;
-    line-height: 80px;
+    line-height: 60px;
     display: flex;
     align-items: center;
     color: #FC8701;
-    letter-spacing: -5px;
-    padding-top: 15px;
 }
-.email-input p{
-    text-align: left;
-    padding-top: 15px;
+.form{
+    height: auto;
+    padding: 10px;
 }
-.input-wrapper{
-    display: flex;
-    width: 544px;
-}
-.input-wrapper input{
-    width: 330px;
+.form-input{
     height: 71px;
-    font-size: 24px;
-    padding-left: 20px;
-    border-right: none;
-    border: 1px solid #2E4D5F ;
-    border-radius: 5px 0px 0px 5px;
 }
-.input-wrapper  button{
-    width: 201px;
-    height: 71px;
-    left: 484px;
-    top: 5173px;
-    color: white;
+.form-btn{
     background: #2E4D5F;
     border-radius: 0px 5px 5px 0px;
+    color: white;
     border: none;
+    height: 71px;
 }
 .footer{
     display: flex;
     justify-content: space-between; 
     align-items: flex-end;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .footer-img {
     width: 108px;
@@ -316,7 +270,147 @@ ul{
 .dont-miss-wrapper {
     width: 100vh;
 }
+.hide{
+    display: none;
+}
+.upper-image{
+    padding-top: 150px;
+}
+.mid h2{
+    font-weight: bolder;
+    font-size: 55px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FC8701;
+    letter-spacing: -5px;
+}
+.dont-miss{
+    border-bottom: 1px solid #FC8701 ;
+    border-top: 1px solid #FC8701 ;
+    margin-top: 100px;
+}
 
 
+@media all and (max-width: 500px){
+    .coverfeet-img-wrapper p{
+        font-size: 22px;
+    }
+    .office-heading{
+        font-size: 24px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .office-text{
+        font-size: 22px;
+    }
+    .office, .sponsors , .sponsors, .dont-miss-wrapper, .email-us{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .favorites{
+        margin-top: 100px;
+        flex-wrap: wrap;
+        display: flex;
+        text-align: center;
+    }
+    .developers-wrappers-heading h2{
+        font-weight: bolder;
+        font-size: 50px;
+        color: #2E4D5F;
+        letter-spacing: -5px;
+        text-align: center
+    }
+    .sub-text{
+        font-size: 22px;
+    }
+    .developers-details h3{
+        font-weight: bolder;
+        font-size: 40px;
+        align-items: center;
+        color: #2E4D5F;
+        letter-spacing: -5px;
+        text-align: center;
+    }
+    .developers-details p{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.05em;
+        color: #FC8701;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .pro-icons{
+        width: 42px;
+        height: 40px;
+    }
+    .profile-icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .developers-wrappers{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        width: 100%;
+    }
+    .main-btn, .sub-main-btn{
+        width: 100%;
+    }
+    .email-form h3{
+        letter-spacing: -2px;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        color: #FC8701;
+    }
+    .sub-heading{
+        text-align: center;
+        font-size: 22px;
+    }
+    .form-input{
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .form-btn{
+        background: #2E4D5F;
+        border-radius: 0px 5px 5px 0px;
+        color: white;
+        border: none;
+        height: 50px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 200px;
+        border-top: 1px solid #FC8701 ;
+    }
+    .hide{
+        display: block;
+    }
+    .block,.image-wrapper-dont,.shoes-inline{
+        display: none;
+    }
+    .nav-logo{
+        width: 70px;
+    }
+    .dont-miss{
+        padding-bottom: 20px;
+    }
+    .upper-image{
+        padding-top: 10px;
+    }
+    
+}
 
 
