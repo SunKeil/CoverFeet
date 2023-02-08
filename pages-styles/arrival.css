@@ -1,0 +1,84 @@
+.shoe-arrivals{
+    height: 100vh;
+    width: 100%;
+}
+.arrivals-wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.content{
+    height: 100vh;
+    padding-top: 50px;
+}
+.heading-shoe {
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FC8701;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+}
+.bgimage{
+    background-image: url("../pages/images/Group\ 14\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.description-slider{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    color: #353A3D;
+}
+.description-slider-version{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    color: #353A3D;
+    opacity: 70%;
+}
+.price {
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FC8701;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+}
+.heading-features {
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 20px;
+    color: #353A3D;
+    letter-spacing: -1px;
+}
+.arrowbtn-l{
+    padding-bottom: 90px;
+    padding-left: 150px;
+}
+.arrowbtn-r{
+    padding-bottom: 100px;
+    padding-right: 200px;
+}
+.card-item{
+    width: 280px;
+    height: 200px;
+    border: 1px solid #FC8701;
+    border-radius: 5px;
+    padding: 10px;
+}
+.collection-wrapper{
+    width: auto;
+}
+@media (min-width: 375px) {
+    .content{
+        height: 100vh;
+        
+    }
+}
+
+
