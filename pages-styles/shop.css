@@ -1,0 +1,52 @@
+.item-shoe{
+    border: 1px solid #FC8701;
+    border-radius: 5px;
+    padding: 5px;
+}
+.heading-300{
+    font-size: 50px;
+    line-height: 50px;
+    color: #2E4D5F;
+    font-weight: 900;
+}
+.item-heading{
+    font-size: 20px;
+    line-height: 20px;
+    color: #FC8701;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+.item-description{
+    font-size: 12px;
+    line-height: 10px;
+    color: #2E4D5F;
+    font-weight: lighter;
+}
+.item-description-slots{
+    font-size: 12px;
+    line-height: 5px;
+    color: gray;
+    font-weight: lighter;
+}
+.item-price{
+    font-size: 22px;
+    line-height: 5px;
+    color: #FC8701;
+    font-weight: 900;
+    letter-spacing: -2px;
+    padding-bottom: 2px;
+}
+.main-btn-cart{
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 100px;
+    background-color: #2E4D5F;
+    color: white;
+    font-size: 12px;
+}
+.item-details{
+    padding: 5px;
+    height: auto;
+}

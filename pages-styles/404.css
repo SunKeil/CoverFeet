@@ -1,0 +1,18 @@
+.wrapper-bg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-404{
+    width: 471px;
+height: 351.65px;
+}
+.logo img{
+    width: 108px;
+    height: 67px;
+}
+.logo{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}

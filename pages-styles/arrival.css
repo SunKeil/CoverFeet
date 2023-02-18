@@ -25,6 +25,7 @@
     background-image: url("../pages/images/Group\ 14\ \(1\).png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: auto;
 }
 .description-slider{
     font-weight: 400;
@@ -57,12 +58,12 @@
     letter-spacing: -1px;
 }
 .arrowbtn-l{
-    padding-bottom: 90px;
-    padding-left: 150px;
+    margin-left: 120px;
+    padding-top: 500px;
 }
 .arrowbtn-r{
-    padding-bottom: 100px;
-    padding-right: 200px;
+    margin-right: 165px;
+    padding-top: 500px;
 }
 .card-item{
     width: 280px;
@@ -74,11 +75,96 @@
 .collection-wrapper{
     width: auto;
 }
-@media (min-width: 375px) {
-    .content{
-        height: 100vh;
-        
-    }
+.modal-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsla(0, 0%, 0%, 0.3)
+}
+.modal-content-wrapper{
+    width: 500px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    border: solid 1px #FC8701;
+}
+.modal-type{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    visibility: hidden;
+   
+}
+.open{
+   visibility: visible;
+}
+.collection-wrapper a{
+    text-decoration: none;
+    color: #2E4D5F;
+    font-weight: bold;
+    font-size: 18px;
 }
 
+
+@media (max-width: 395px) {
+    .arrivals-wrapper{
+        height: 90vh;
+    }
+    .shoe-name, .shoe-features{
+        display: none;
+    }
+    .shoe-arrivals{
+        height: 100vh;
+    }
+    .btn-carousel{
+        visibility: hidden;
+    }
+}
+@media (max-width: 850px) {
+    .shoe-name, .shoe-features{
+        display: none;
+    }
+    
+    .btn-carousel{
+        visibility: hidden;
+    }
+
+
+}
+@media (max-width: 850px) {
+    .shoe-name, .shoe-features{
+        display: none;
+    }
+   
+
+}
+@media (max-width: 1000px) {
+    .heading-shoe{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .description-slider{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .price{
+        font-size: 24px;
+    }
+    .main-btn {
+        width: 150px;
+        
+        border: none;
+        background: #2E4D5F;
+        color: white;
+        border-radius: 2px;
+    }
+    .heading-features{
+        font-size: 16px;
+    }
+    .description-slider-version{
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
 

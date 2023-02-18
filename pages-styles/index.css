@@ -1,0 +1,134 @@
+.btns {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.product{
+    display: flex;
+}
+.outlined-btn{
+    width: 197px;
+    height: 52px;
+    border: 1px solid #2E4D5F;
+    background-color: white;
+    color: #2E4D5F;
+    font-weight: 600;
+}
+.sub-main-btn-fill{
+    width: 197px;
+    height: 52px;
+    border: 1px solid #FC8701;
+    background-color: #FC8701;
+    color: white;
+    font-weight: 600;
+}
+.btns h2{
+    font-weight: 600;
+    color: #FC8701;
+    font-size: 60px;
+}
+.header-main{
+    font-size: 100px;
+    font-weight: 900;
+    color: #2E4D5F;
+    line-height: 90px;
+    width: auto;
+}
+.header-buy{
+    font-size: 100px;
+    font-weight: 900;
+    color: #BE664E;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+.main{
+    height: auto;
+    padding-top: 50px;
+}
+.main-r{
+    padding-top: 50px;
+    background-image: url('../pages/images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.heading-100{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -5px;
+    color: #FC8701;
+}
+.heading-200{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: -5px;
+    color: #2E4D5F;
+}
+.sub-description{
+    font-size: 27px;
+    font-weight: 400px;
+    line-height: 25px;
+    color: #2E4D5F;
+}
+.sub-description-2{
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 25px;
+    color: #2E4D5F;
+    text-align: center;
+}
+.mini-description{
+    font-size: 16px;
+    font-weight: 200;
+    color: gray;
+    line-height: 18px;
+}
+
+.shoe-description{
+    padding-top: 60px;
+}
+.new-arrivals{
+    margin-top: 50px;
+}
+.shoe-slide{
+    display: flex;
+
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 200;
+    color: #2E4D5F;
+}
+a{
+    color: #2E4D5F;
+}
+a:hover {
+   color: #FC8701;
+  }
+
+@media (max-width: 395px) {
+    .slider-shoes,.new-arrivals,.main-r,.btns{
+        display: none;
+    }
+    .main{
+        height: auto;
+        padding-top: 50px;
+    }
+    .main-btn{
+        width: 100%;
+        margin-bottom: 5px;
+        height: 52px;
+    }
+    .btns{
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    .main-r{
+        display: none;
+    }
+    .btns{
+        display: none;
+    }
+}

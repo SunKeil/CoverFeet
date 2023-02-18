@@ -66,6 +66,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
 ul{
     display: flex;
     justify-content: center;
@@ -138,12 +139,12 @@ ul{
     letter-spacing: -0.05em;
     color: #16459D;
 }
-.sponsors-logos{
+/* .sponsors-logos{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
+    width: auto;
+} */
 .sponsors{
     border-width: 1px 0px;
     border-style: solid;
@@ -231,6 +232,7 @@ ul{
     background: #2E4D5F;
     border-radius: 0px 5px 5px 0px;
     color: white;
+    text-transform: capitalize;
     border: none;
     height: 71px;
 }
@@ -288,8 +290,55 @@ ul{
     border-top: 1px solid #FC8701 ;
     margin-top: 100px;
 }
+.c-height{
+    height: auto;
+}
+.pages{
+    background-color: #FC8701;
+}
+.feedback-wrapper{
+    border: 1px solid #FC8701;
+    border-radius: 5px;
+    padding: 10px;
+}
+.name-heading{
+    font-weight: 600;
+    font-size: 24px;
+    color: #2E4D5F;
+}
+.title-heading{
+    font-weight: 200;
+    font-size: 18px;
+    color: #2E4D5F;
+}
+.qoute-description{
+   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    color: #5f5f5f;
+}
+.feedback-wrapper{
+    border-radius: 1px solid #FC8701;
+}
 
-
+@media all and (max-width: 375px){
+    .feedback-btn{
+        visibility: hidden;
+    }
+}
+@media all and (max-width: 465px){
+    .feedback-btn{
+        visibility: hidden;
+    }
+}
+@media all and (max-width: 1500px){
+    .feedback-btn{
+        visibility: hidden;
+    }
+}
 @media all and (max-width: 500px){
     .coverfeet-img-wrapper p{
         font-size: 22px;
